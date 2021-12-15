@@ -20,10 +20,7 @@ inquirer
         else if (responses.channels === 2) {
             console.log("You need use the command: git commit -m");
         }
-        else if (responses.channels === 3) {
-            console.log("You need use the command: git add <file>");
-        }
         else {
-            console.log("Wrong option.");
+            console.log("You need use the command: git add <file>");
         }
 });
